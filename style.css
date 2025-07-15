@@ -1,3 +1,4 @@
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -68,21 +69,20 @@ header {
 .rodape-galeria {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
   flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.rodape-galeria div {
+  max-width: 150px;
 }
 
 .rodape-galeria img {
-  width: 120px;
+  width: 100%;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 8px;
-}
-
-footer {
-  background: #eee;
-  text-align: center;
-  padding: 10px;
 }
 
 .catalogo-link {
@@ -120,3 +120,8 @@ footer {
   background: #005c2e;
 }
 
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+}
