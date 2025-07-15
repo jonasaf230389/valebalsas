@@ -13,8 +13,9 @@ header {
 }
 
 .logo {
-  width: 120px;
-  margin-bottom: 10px;
+  width: 200px;
+  max-width: 90%;
+  margin-bottom: 15px;
 }
 
 .contato, .produtos {
@@ -48,6 +49,31 @@ header {
 
 .galeria img {
   width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.rodape-produtos {
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.rodape-produtos h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.rodape-galeria {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.rodape-galeria img {
+  width: 120px;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 8px;
