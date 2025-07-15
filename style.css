@@ -84,3 +84,39 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+.catalogo-link {
+  padding: 30px 20px;
+  background: #ffffff;
+  text-align: center;
+  border-top: 2px solid #007f3f;
+  border-bottom: 2px solid #007f3f;
+}
+
+.catalogo-link h2 {
+  color: #007f3f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.catalogo-link p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-catalogo {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #007f3f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn-catalogo:hover {
+  background: #005c2e;
+}
+
