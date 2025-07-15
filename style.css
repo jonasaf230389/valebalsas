@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+header {
+  background: #007f3f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.contato, .produtos {
+  padding: 20px;
+  text-align: center;
+}
+
+.contato ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contato li {
+  margin: 10px 0;
+}
+
+.contato a {
+  text-decoration: none;
+  color: #007f3f;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.galeria img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+}
